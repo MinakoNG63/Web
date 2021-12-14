@@ -1,0 +1,25 @@
+.flexbox {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row; /* ไว้บอกแกนหลัก */
+    flex-wrap: wrap; /* อนุญาติให้ item ลงไปแถวต่อไป */
+    justify-content: center; /* จัดเรียง item ทั้งหมดตามแนวหลักของ flexbox */
+    align-items: flex-end; /*จัดเรียง item ตามแกนรองของ flexbox */
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.item {
+    display: block;
+    box-sizing: border-box;
+    width: 33.33%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+.content {
+    background-color: lightyellow;
+    border: 2px solid black;
+    padding: 16px;
+}

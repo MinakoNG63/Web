@@ -1,0 +1,10 @@
+body {
+    background-color: rosybrown;
+}
+
+.image {
+    width: 100%;
+    filter: Sepia(30%);
+    filter: blur(50%);
+    filter: grayscale(60%);
+}

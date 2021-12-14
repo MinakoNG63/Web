@@ -1,0 +1,15 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* พท.บ้าน */
+    column-gap: 20px; /* พท.ว่างระหว่างบ้าน */
+    row-gap: 40px;
+    justify-items: center;
+    align-items: center;
+}
+
+.content {
+    background-color: gold;
+    border: 2px solid black;
+    box-sizing: border-box;
+    padding: 10px
+}

@@ -1,0 +1,9 @@
+.box {
+    background-color: white;
+    border: 1px solid darkgray;
+    margin: 60px;
+    padding: 40px;
+    /* box-shadow: x y blur spread color */
+    box-shadow: -5px 5px 12px 0px skyblue,
+                5px -5px 12px 0px pink;
+}
